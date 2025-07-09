@@ -35,11 +35,6 @@ This site showcases my skills, projects, certifications, and resume — optimize
 
 ---
 
-## 🖼️ Preview (OG Image)
-
-![OG Preview](https://yeswanthvelugoti-portfolio.netlify.app/yeswanth-og.jpg)
-
----
 
 ## 📁 Project Structure
 
