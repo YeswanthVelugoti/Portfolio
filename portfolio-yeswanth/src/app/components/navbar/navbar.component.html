@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">Yeswanth Velugoti</a>
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div [ngClass]="{ 'collapse': true, 'navbar-collapse': true, 'show': navbarOpen }" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" (click)="closeNavbar()">Home</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/projects" routerLinkActive="active" (click)="closeNavbar()">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/skills" routerLinkActive="active" (click)="closeNavbar()">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/education" routerLinkActive="active" (click)="closeNavbar()">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/experience" routerLinkActive="active" (click)="closeNavbar()">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/certifications" routerLinkActive="active" (click)="closeNavbar()">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/resume" routerLinkActive="active" (click)="closeNavbar()">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="closeNavbar()">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

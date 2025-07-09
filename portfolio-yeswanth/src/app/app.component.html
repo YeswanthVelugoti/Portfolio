@@ -1,0 +1,16 @@
+<div class="app-wrapper d-flex flex-column min-vh-100">
+  <app-navbar></app-navbar>
+  <main class="flex-fill">
+    <router-outlet></router-outlet>
+  </main>
+  <app-footer></app-footer>
+</div>
+<!-- Scroll-to-top button -->
+<button
+  class="scroll-to-top"
+  *ngIf="showScrollToTop"
+  (click)="scrollToTop()"
+  aria-label="Scroll to top"
+>
+  ⬆
+</button>
